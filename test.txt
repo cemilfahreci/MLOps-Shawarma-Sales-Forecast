@@ -1,0 +1,14 @@
+Backend
+
+cd ~/Desktop/Mlops/mlpos-shawarma-forecast/backend
+source .venv/bin/activate
+uvicorn app.main:app --reload --port 8000
+
+Frontend
+
+cd ~/Desktop/Mlops/mlpos-shawarma-forecast/frontend
+npm run dev
+
+
+cd ~/Desktop/Mlops
+./run_all.sh
